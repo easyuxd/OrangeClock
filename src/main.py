@@ -1,4 +1,4 @@
-import orangeClockFunctions.displayBlockMoscowFees as orangeClock
+import orangeClockFunctions.displayIcons as orangeClock
 import orangeClockFunctions.displaySetupDialog as setupDialog
 from phew import access_point, connect_to_wifi, is_connected_to_wifi, dns, server
 from phew.template import render_template
