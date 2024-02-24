@@ -9,7 +9,7 @@ import urequests
 import json
 import gui.fonts.orangeClockIcons25 as iconsSmall
 import gui.fonts.orangeClockIcons35 as iconsLarge
-import gui.fonts.libreFranklinBold56 as large
+import gui.fonts.libreFranklinBold50 as large
 import gui.fonts.libreFranklinSemiBold29 as small
 import gc
 import math
@@ -168,9 +168,9 @@ def main():
             refresh(ssd, True)
             time.sleep(5)
         try:
-            symbolRow1 = "ABCDEFGH"
-            symbolRow2 = "IJKLMNOP"
-            symbolRow3 = "BHIK"
+            symbolRow1 = "ABCDEFGHI"
+            symbolRow2 = "JKLMNOPQR"
+            symbolRow3 = "BCDEK"
             textRow1 = ""
             textRow2 = ""
             textRow3 = ""
